@@ -27,6 +27,8 @@ $( document ).ready(function() {
 		$("#goForest1").hide();
 		$("#goBack").show();
 
+	});
+
 	$("#goHouse").click(function() {
 		$("#exploreBody").css("background-image", "url('img/House.jpg')");
 		$("#goForest1").hide();
